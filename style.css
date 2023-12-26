@@ -68,6 +68,7 @@ header p {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 20px;
 }
 
 .sign-up {
@@ -140,4 +141,38 @@ header p {
 
 .quote-section strong {
     align-self: flex-end;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px;
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 700px;
+}
+
+.call-to-action button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+.call-to-action p {
+    margin: 0;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 50px;
+    color: white;
+    text-align: center;
 }
